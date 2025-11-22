@@ -1,0 +1,39 @@
+# Environment variables (secrets!)
+.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints
+
+# Local audio/video assets (auto-generated)
+/downloads/
+/temp_video.mp4
+*.wav
+*.mp4
+*.mov
+*.mkv
+
+# Whisper model (large file — do not commit)
+whisper-model/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+whisper-model/
+whisper-model/
